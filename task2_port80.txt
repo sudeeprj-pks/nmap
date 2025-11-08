@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Sat Nov  8 00:41:00 2025 as: /usr/lib/nmap/nmap --privileged -p 80 -oN task2_port80.txt 10.0.2.15/24
+Nmap scan report for 10.0.2.2
+Host is up (0.00024s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.00051s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+
+Nmap scan report for 10.0.2.15
+Host is up (0.00011s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+# Nmap done at Sat Nov  8 00:41:10 2025 -- 256 IP addresses (3 hosts up) scanned in 9.27 seconds

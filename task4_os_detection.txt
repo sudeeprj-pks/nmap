@@ -1,0 +1,39 @@
+# Nmap 7.95 scan initiated Sat Nov  8 00:42:46 2025 as: /usr/lib/nmap/nmap -O -oN task4_os_detection.txt 10.0.2.15/24
+Nmap scan report for 10.0.2.2
+Host is up (0.0016s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|general purpose|bridge
+Running (JUST GUESSING): AT&T embedded (98%), QEMU (94%), Oracle Virtualbox (93%), Slirp (93%), GNU Hurd (88%)
+OS CPE: cpe:/a:qemu:qemu cpe:/a:oracle:vm_virtualbox cpe:/a:danny_gasparovski:slirp cpe:/o:gnu:hurd
+Aggressive OS guesses: AT&T BGW210 voice gateway (98%), QEMU user mode network gateway (94%), Oracle Virtualbox Slirp NAT bridge (93%), GNU Hurd 0.3 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0049s latency).
+Not shown: 999 filtered tcp ports (net-unreach)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP adapter|general purpose|bridge|printer
+Running (JUST GUESSING): AT&T embedded (96%), QEMU (95%), Oracle Virtualbox (94%), Slirp (94%), Samsung embedded (87%), Dell embedded (86%), Wind River VxWorks (86%)
+OS CPE: cpe:/a:qemu:qemu cpe:/o:oracle:virtualbox cpe:/a:danny_gasparovski:slirp cpe:/h:samsung:clp-315w cpe:/h:dell:1815dn cpe:/o:windriver:vxworks
+Aggressive OS guesses: AT&T BGW210 voice gateway (96%), QEMU user mode network gateway (95%), Oracle Virtualbox Slirp NAT bridge (94%), Samsung CLP-315W printer (87%), Dell 1815dn printer (86%), VxWorks (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.0.2.15
+Host is up (0.000087s latency).
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  8 00:43:05 2025 -- 256 IP addresses (3 hosts up) scanned in 18.86 seconds
